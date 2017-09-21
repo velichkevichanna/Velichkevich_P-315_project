@@ -22,17 +22,17 @@
         <nav>
             <h4>Меню</h4>
             <ul>
-                <li>Все категории</li>
-                    <ul><li>Роутеры</li>
-                        <li>Игровые симуляторы</li>
-                        <li>Комплектующие</li>
-                        <li>Переферия</li>
-                        <li>Настольные лампы</li>
-                        <li>Моноблоки и ноутбуки</li>
+                <li><a href="#">Все категории</a></li>
+                    <ul><li><a href="#">Роутеры</a></li>
+                        <li><a href="#">Игровые симуляторы</a></li>
+                        <li><a href="#">Комплектующие</a></li>
+                        <li><a href="#">Переферия</a></li>
+                        <li><a href="#">Настольные лампы</a></li>
+                        <li><a href="#">Моноблоки и ноутбуки</a></li>
                     </ul>
-                <li>Доставка</li>
-                <li>Гарантия</li>
-                <li>Контакты</li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Гарантия</a></li>
+                <li><a href="#">Контакты</a></li>
 
             </ul>
         </nav>
@@ -51,11 +51,13 @@
                 </p>
                 <a href="#">Подробнее</a>
 
+                <img src="http://placehold.it/150x100" alt="Контекстное изображение">
+
                 <input type="radio" name="slider_one" value="1">
                 <input type="radio" name="slider_one" value="2" checked>
                 <input type="radio" name="slider_one" value="3">
 
-                <img src="http://placehold.it/150x100" alt="Контекстное изображение">
+
         </section>
 
         <section class="categories">
@@ -73,9 +75,9 @@
 
         <section class="second_slider">
             <div class="radiobutton_for_second_slider">
-                <input type="radio" name="slider_two" value="1">
-                <input type="radio" name="slider_two" value="2" checked> <!--- Как сделать подпись, прикрепленную к радиокнопке??--->
-                <input type="radio" name="slider_two" value="3">
+                <label>Доставка<input type="radio" name="slider_two" value="1"></label>
+                <label>Гарантия<input type="radio" name="slider_two" value="2" checked label=""></label> <!--- Как сделать подпись, прикрепленную к радиокнопке??--->
+                <label>Кредит<input type="radio" name="slider_two" value="3" label=""></label>
             </div>
 
             <div class="content_second_slider">
@@ -92,29 +94,53 @@
 
         <section class="brends"> <!-- Тут будут изображения брендов в ряд-->
             <ul>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
-                <li> <a href="#"> <img src="http://placehold.it/100x70"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="Schneider"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="legran"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="bticino"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="DEKraft"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="JUNG"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="GIRA"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="DKC"> </a> </li>
+                <li> <a href="#"> <img src="http://placehold.it/100x70" alt="CCI"> </a> </li>
             </ul>
         </section>
 
         <section class="about_company">
-            ТУТ БУДЕТ ИНФОРМАЦИЯ О КОМПАНИИ
+            <h3>Наша компания</h3>
+            Exorcizamus te, omnis immundus spiritus, omnis satanica potestas,
+            omnis incursio infernalis adversarii, omnis legio, omnis congregatio et
+            secta diabolica, in nomine et virtute Domini Nostri Jesu + Christi, eradicare
+            et effugare a Dei Ecclesia, ab animabus ad imaginem Dei conditis ac pretioso..
+            <ul>
+                <li>eternum Dei Verbum, caro factum + , qui pro salute generis nostri tua
+                    invidia perditi, humiliavit semetipsum facfus hobediens usque ad mortem;
+                </li>
+                <li>qui Ecclesiam suam aedificavit supra firmam petram, et portas inferi adversus
+                    eam nunquam esse praevalituras edixit, cum ea ipse permansurus omnibus diebus
+                    usque ad consummationem saeculi.
+                </li>
+            </ul>
+            <a href="#">Напишите нам</a>
         </section>
 
         <article class="new_mailing">
-            БЛОК ПОЧТОВОЙ РАССЫЛКИ
+            <h3>Почтовая рассылка</h3>
+            Узнавайте первым о новостях, акциях и скидках интернет-магазина.
+            <br>
+            <input type="text">
+            <br>
+            Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время
+            <br>
+            <input type="submit" value="Подписаться">
         </article>
     </main>
 
     <footer>
         <img src="" alt="MAGNO">
-        +7 916 555 55 55
+
+        МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456
+
+        <a href="tel:89162543931"> +7 916 555 55 55</a>
 
         <a href="#">
             Личный кабинет
@@ -125,19 +151,20 @@
         </a>
 
         <ul>
-            <li>Доставка</li>
-            <li>Гарантия</li>
-            <li>Контакты</li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Контакты</a></li>
         </ul>
-        <address>Копирайт</address>
 
         <a href="#">MAPS</a>
 
+        <address>Все права защищены. 2017</address>
+
         <ol>
-            <li><img src="" alt="vk"></li>
-            <li><img src="" alt="fb"></li>
-            <li><img src="" alt="tw"></li>
-            <li><img src="" alt="mail"></li>
+            <li><a href="#"><img src="" alt="vk"></a></li>
+            <li><a href="#"><img src="" alt="fb"></a></li>
+            <li><a href="#"><img src="" alt="tw"></a></li>
+            <li><a href="#"><img src="" alt="mail"></a></li>
         </ol>
     </footer>
 
