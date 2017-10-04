@@ -1,0 +1,39 @@
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #3c3c3c;
+    height: 77px;
+}
+
+
+.user-navigation{
+    width: 90%;
+    text-align: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-menu ul li{
+    padding-right: 20px;
+}
+
+.nav-menu{
+    background-color: red;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
