@@ -1,16 +1,43 @@
-nav{
-    position: fixed;
-    width: 100%;
+header{
+    background-color: #3c3c3c;
+    position: absolute;
     top: 0;
     left: 0;
-    background: #3c3c3c;
-    height: 77px;
+    width: 100%;
+    height:77px;
 }
 
+main {
+    position: absolute;
+    top: 25%;
+}
+
+footer{
+    background-color: #464646;
+    position: absolute;
+    bottom: -400%;
+    width: 100%;
+    left: 0;
+}
 
 .user-navigation{
-    width: 90%;
+    width:90%;
     text-align: center;
+}
+
+.user-navigation ul {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.user-navigation ul li{
+    padding-right:60px;
+}
+
+.mainlogo{
+    flex-grow:1;
 }
 
 .nav-menu ul{
@@ -27,6 +54,7 @@ nav{
 
 .nav-menu{
     background-color: red;
+    border: 1px solid transparent;
 }
 
 li{
@@ -37,3 +65,31 @@ a{
     text-decoration: none;
 }
 
+.usera a{
+    color:white;
+}
+
+.tel a{
+    color: #e9b637;
+}
+
+.search {
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-color:#3c3c3c;
+    border-color: #FFFFFF;
+    color:white;
+}
+
+.end_of_page{
+    background-color:#3c3c3c;
+
+}
+
+.categories ul{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
