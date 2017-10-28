@@ -1,0 +1,91 @@
+ul {
+    list-style:none;
+    padding: 0;
+}
+
+a {
+    text-decoration:none;
+}
+
+.menu{
+    position:absolute;
+    width:100%;
+    left: 0;
+    top: 0;
+}
+
+.top_menu{
+    position:relative;
+    margin:0;
+    padding: 0 10% 0 10%;
+    width:80%;
+    height:65px;
+    background-color: #f0f0f0;
+}
+
+.elem_of_top_menu{
+    position:relative;
+    display:flex;
+    float:right;
+    //background-color: coral;
+    z-index: 2;
+    }
+
+.elem_of_top_menu:first-child{
+    float: left;
+    width: 60%;
+    //background-color: darkkhaki;
+}
+
+.elem_of_top_menu a{
+    display:flex;
+    padding:22px 25px 0 25px;
+    font-size:15px;
+    font-family:"Century Gothic", sans-serif;
+    color:#3c3c3c;
+    font-weight:bold;
+}
+
+.elem_of_top_menu > a:hover, .elem_of_top_menu:hover > a{
+    color:#e9b637;
+}
+
+.sub_menu{
+    position:absolute;
+    top:100%;
+    display: none;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+
+.elem_of_top_menu:hover ul{
+    display:flex;/*эта строчка реализует механизм выпадения*/
+}
+
+.sub_menu li a{
+    display: flex;
+    padding: 10px 80px 10px 7px;
+    font-weight:normal;
+    font-size: 13px;
+    //background-color: burlywood ;
+}
+
+.elem_of_sub_menu:hover{
+    color:#e9b637;
+}
+
+/*.background_for_sub_menu{
+    background-color: #f0f0f0;
+    position:absolute;
+    width:100%;
+    left: 0;
+    top: 65px;
+    height:97px;
+    z-index: 1;
+    display: none;
+}
+
+table tr td{
+    border: 1px solid black;
+}*/

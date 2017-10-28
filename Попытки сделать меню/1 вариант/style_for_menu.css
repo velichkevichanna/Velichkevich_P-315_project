@@ -1,0 +1,73 @@
+ul {
+    list-style:none;
+    padding: 0;
+}
+
+a {
+    text-decoration:none;
+}
+
+.menu{
+    position:absolute;
+    width:100%;
+    height:350px;
+    left: 0;
+    top: 0;
+}
+
+.top_menu{
+    position:relative;
+    margin:0;
+    padding: 0 10% 0 10%;
+    width:80%;
+    height:65px;
+    background-color: #f0f0f0;
+}
+
+.elem_of_top_menu{
+    position:relative;
+    display:flex;
+    float:right;
+    //background-color: coral;
+    }
+
+.elem_of_top_menu:first-child{
+    float: left;
+    width: 60%;
+    //background-color: darkkhaki;
+}
+
+.elem_of_top_menu a{
+    display:flex;
+    padding:22px 25px 0 25px;
+    font-size:10pt;
+    font-family:"Century Gothic", sans-serif;
+    color:#3c3c3c;
+    font-weight:bold;
+}
+
+.elem_of_top_menu > a:hover, .elem_of_top_menu:hover > a{
+    color:#e9b637;
+}
+
+.sub_menu{
+    position:absolute;
+    top:100%;
+    display: none;
+    background-color: #f0f0f0;
+}
+
+.elem_of_top_menu:hover ul{
+    display:flex;  /*эта строчка реализует механизм выпадения*/
+}
+
+.sub_menu li a{
+    display: flex;
+    padding: 20px 0 5px 7px;
+    font-weight:normal;
+    //background-color: burlywood ;
+}
+
+.sub_menu li a:hover{
+    color:#e9b637;
+}
