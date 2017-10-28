@@ -7,22 +7,30 @@ header{
     height:77px;
 }
 
+ul {
+  padding: 0;
+}
+
 main {
+    //background-color: blueviolet;
     position: absolute;
     top: 25%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 footer{
     background-color: #464646;
     position: absolute;
-    bottom: -400%;
+    bottom: -250%;
     width: 100%;
     left: 0;
 }
 
 .user-navigation{
-    width:90%;
+    width:80%;
     text-align: center;
+    margin-left: 10%;
 }
 
 .user-navigation ul {
@@ -38,6 +46,7 @@ footer{
 
 .mainlogo{
     flex-grow:1;
+    margin-left: -12%;
 }
 
 .nav-menu ul{
@@ -45,20 +54,26 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    width:80%;
+    margin-left: 11%;
 }
 
 .nav-menu ul li{
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .nav-menu{
-    background-color: red;
+    background-color: #f0f0f0;
     border: 1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 li{
     list-style: none;
+    padding: 0;
 }
 
 a{
@@ -76,7 +91,7 @@ a{
 .search {
     background-image: url(images/search.png);
     background-repeat: no-repeat;
-    background-position: 85%;
+    background-position: 97%;
     background-color:#3c3c3c;
     border-color: #FFFFFF;
     color:white;
@@ -84,12 +99,95 @@ a{
 
 .end_of_page{
     background-color:#3c3c3c;
+}
 
+.categories{
+    //background-color: red;
+    //position: absolute;
 }
 
 .categories ul{
     display: flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
 }
+
+.categories1 {
+    background-image: url(images/laptops.png);
+    height: 156px;
+    width: 156px;
+}
+
+.categories2{
+    background-image: url(images/periphery.png);
+    height: 156px;
+    width: 156px;
+}
+
+.categories3{
+    background-image: url(images/accessories.png);
+    height: 156px;
+    width: 156px;
+}
+
+.categories4{
+    background-image: url(images/routers.png);
+    height: 156px;
+    width: 156px;
+}
+
+.categories5{
+    background-image: url(images/desk_lamp.png);
+    height: 156px;
+    width: 156px;
+}
+
+.categories6{
+    background-image: url(images/game_simulators.png);
+    height: 156px;
+    width: 156px;
+}
+
+.first_slider{
+    //position: absolute;
+    background-color: #e9b637;
+    padding: 0 30px;
+    margin: 10px 0 20px 0;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.content_first_slider{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    //background-color: cadetblue;
+}
+
+.text_first_slider p{
+    color: white;
+}
+
+.navigation_first_slider{
+    padding-left: 45%;
+    padding-bottom: 3%;
+    //background-color: orange;
+}
+
+.brends ul{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.brends ul li:hover{
+    opacity: 0.5;
+}
+
+.submenu{
+    //visibility: hidden;
+}
+
+
