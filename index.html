@@ -2,7 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Magno</title>
 </head>
 <body>
@@ -12,17 +13,15 @@
         <div class="top-menu">
             <ul class="user-navigation  wrapper">
                 <li class="mainlogo"><a><img src="images/logo.png" alt="MAGNO"></a></li>
-                <li><a class="tel" href="tel:89160000000"> +7 916 000 00 00</a></li>
-                <li>
-                    <input class='search' type='search' value='Поиск по сайту'>
-                </li>
-                <li class="white-text-color"><a href="#">Личный кабинет</a></li>
-                <li class="white-text-color"><a href="#">Корзина</a></li>
+                <li><img class="padding-for-ico" src="images/phone.png"><a class="tel-menu" href="tel:89160000000"> +7 916 000 00 00</a></li>
+                <li><form><input type="search" placeholder="Поиск по сайту" id="search"><label for="search"><img src="images/search.png" class="search-image"></label></form></li>
+                <li class="white-text-color"><a class="size-for-users-button" href="#"><img class="padding-for-ico" src="images/admin-logo.png" alt="Личный кабинет">Личный кабинет</a></li>
+                <li class="white-text-color"><a class="size-for-users-button" href="#"><img class="padding-for-ico" src="images/basket.png" alt="Корзина">Корзина</a></li>
             </ul>
         </div>
         <div class="bottom-menu">
             <ul class="site-navigation  wrapper">
-                <li class="elem_of_top_menu"><a href="#">Все категории</a>
+                <li class="elem_of_top_menu"><a href="#">Все категории +</a>
                     <ul class="sub_menu">
                         <li>
                             <table>
@@ -114,6 +113,8 @@
         </div>
     </section>
 
+    <div class="line"></div>
+
     <section class="categories margin-for-top-and-bottom">
         <ul>
             <li> <a href="catalog.html"><div class="categories1 size_img_of_categories"> Ноутбуки и моноблоки </div> </a> </li>
@@ -123,8 +124,9 @@
             <li> <a href="#"><div class="categories5 size_img_of_categories"> Настольные лампы </div> </a> </li>
             <li> <a href="#"><div class="categories6 size_img_of_categories"> Игровые симуляторы </div> </a> </li>
         </ul>
-
     </section>
+
+    <div class="line"></div>
 
     <section class="services-slider margin-for-top-and-bottom">
         <div class="services-slides">
@@ -174,6 +176,8 @@
         </div>
     </section>
 
+    <div class="line"></div>
+
     <section class="brends margin-for-top-and-bottom"> <!-- Тут будут изображения брендов в ряд-->
         <ul>
             <li> <a href="#"> <img src="images/brand1.png" alt="Schneider"> </a> </li>
@@ -221,40 +225,30 @@
 
 </main>
 
-<footer class="footer-of-page">
-    <div class="top-footer ">
-        <ul class="wrapper">
-            <li>
-                <ul class="footer-link">
-                    <li class="footer-logo"><img src="images/logo.png" alt="MAGNO"></li>
-                    <li class="footer-text">
-                        МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456
-                        <a href="tel:89160000000"> +7 916 000 00 00</a>
-                    </li>
-                    <li>
-                        <ul class="footer-users-menu">
-                            <li class="white-text-color"><a href="#">Личный кабинет</a></li>
-                            <li class="white-text-color"><a href="#">Корзина</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <div class="footer-inform">
-                <ul>
-                    <li class="white-text-color"><a href="#">Доставка</a></li>
-                    <li class="white-text-color"><a href="#">Гарантия</a></li>
-                    <li class="white-text-color"><a href="#">Контакты</a></li>
-                </ul>
-                <a href="#"><img src="images/map.png"></a>
+<footer>
+    <div class="footer-basement">
+        <div class="footer-flex">
+            <div class="footer-adress">
+                <a href="" class="footer-logo"><img src="images/logo.png" alt="MAGNO"></a></l>
+                <div class="adress">
+                    <p>Г. МОСКВА, УЛ. СТРОИТЕЛЕЙ, 15<br> К 1 ОФИС 456</p></li>
+                    <p class="tel">8-800-5000-616</p>
+                </div>
+                <div class="footer-icons">
+                    <div class="white-text-color"><a class="size-for-users-button" href=""><img class="padding-for-ico" src="images/admin-logo.png" alt="Личный кабинет">Личный кабинет</a></div>
+                    <div class="white-text-color"><a class="size-for-users-button" href=""><img class="padding-for-ico" src="images/basket.png" alt="Корзина">Корзина</a></div>
+                </div>
             </div>
-            </li>
-        </ul>
+            <div class="footer-inform">
+                <ul>
+                    <li class="white-text-color"><a href="">Доставка</a></li>
+                    <li class="white-text-color"><a href="">Гарантия</a></li>
+                    <li class="white-text-color"><a href="">Контакты</a></li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.112374947321!2d37.527429315468325!3d55.68703400453062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1510438491865" width="475" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
-
-
-
 
     <section class="bottom-footer">
         <ul class="copyright wrapper">
