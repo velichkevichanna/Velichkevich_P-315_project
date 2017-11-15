@@ -52,3 +52,40 @@ Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio
         </ul>
     </section>
 </footer>
+
+
+
+
+
+
+
+    <section class="about-company margin-for-top-and-bottom">
+        <div class="our-company">
+            <h3>Наша компания</h3>
+            Exorcizamus te, omnis immundus spiritus, omnis satanica potestas,
+            omnis incursio infernalis adversarii, omnis legio, omnis congregatio et
+            secta diabolica, in nomine et virtute Domini Nostri Jesu + Christi, eradicare
+            et effugare a Dei Ecclesia, ab animabus ad imaginem Dei conditis ac pretioso..
+            <ul>
+                <li>eternum Dei Verbum, caro factum + , qui pro salute generis nostri tua
+                    invidia perditi, humiliavit semetipsum facfus hobediens usque ad mortem;
+                </li>
+                <li>qui Ecclesiam suam aedificavit supra firmam petram, et portas inferi adversus
+                    eam nunquam esse praevalituras edixit, cum ea ipse permansurus omnibus diebus
+                    usque ad consummationem saeculi.
+                </li>
+            </ul>
+            <a href="#">Напишите нам</a>
+        </div>
+
+        <article class="new-mailing">
+                <h3>Почтовая рассылка</h3>
+                Узнавайте первым о новостях, акциях и скидках интернет-магазина.
+                <br>
+                <input type="text">
+                <br>
+                Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время
+                <br>
+                <input type="submit" value="Подписаться">
+            </article>
+    </section>
